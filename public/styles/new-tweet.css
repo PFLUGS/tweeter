@@ -6,7 +6,7 @@ justify-content: center;
 }
 
 
-textarea#tweet-text {
+textarea {
   /* border: none; */
   background-color: #f4f1ec;
   outline: none;
@@ -18,6 +18,7 @@ textarea#tweet-text {
   border-bottom: 5;
   margin-bottom: 5px;
   padding-top: 10px;
+  width: 1000px;
 }
 
 
@@ -40,8 +41,6 @@ textarea#tweet-text {
   justify-content: flex-end;
 }
 
-/* #tweet-text::placeholder {
-  display: flex;
-  padding-top: 20px;
-  border-bottom: 10px;
-} */
+.colorCounter {
+  color: red;
+}
