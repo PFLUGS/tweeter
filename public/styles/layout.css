@@ -26,6 +26,13 @@ body {
   display: flex;
   font-family: 'Bungee', cursive;
 }
+
+.container {
+  color: #545149;
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
