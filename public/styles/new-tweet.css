@@ -2,12 +2,15 @@ form{
 display: flex;
 justify-content: center;
 flex-direction: column;
-justify-content: center;
+margin: auto;
 }
 
 
 textarea {
   /* border: none; */
+  /* display: flex;
+  align-items: center;
+  width: 90%; */
   background-color: #f4f1ec;
   outline: none;
   resize: none;
@@ -18,7 +21,6 @@ textarea {
   border-bottom: 5;
   margin-bottom: 5px;
   padding-top: 10px;
-  width: 1000px;
 }
 
 
@@ -26,6 +28,7 @@ textarea {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .tweetButton{
@@ -43,4 +46,8 @@ textarea {
 
 .colorCounter {
   color: red;
+}
+
+.title{
+  display: flex;
 }
